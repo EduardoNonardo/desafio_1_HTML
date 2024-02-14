@@ -1,0 +1,506 @@
+<html>
+    <!--descobri que assim posso fazer comentários-->
+    <!--não esqueça de colocar após o nome do arquivo .html,
+     para que o arquivo seja realmente reconhecido como html.-->
+    <head> 
+        <title>desafio 1 de html</title>
+    </head>
+    <!--Se apenas escrever entre as "heads", o texto aparecerá. o correto é 
+    colocar entre os "titles", como fiz acima--> 
+    <!--nunca esqueça do ctrl+s para gravar as alterações-->
+        
+    <body>
+        <h1><center>Compreendendo HTML</center></h1> 
+        <hr>
+        <h2 id="indice">Índice</h2>
+        <ul>
+            <li><a href="#o que é html">O que é html?</a></li>
+            <li><a href="#tagsh1"> tags h1 ate h6</a></li>
+            <li><a href="#tagsp">tags p, mark, smal</a></li>
+            <li><a href="#tagsi">tags i, u, strong</a></li>
+            <li><a href="#tagsol"> tags ol, ul, li, a</a></li>
+            <li><a href="#tagshr">tags hr, sub, blockquote</a></li>
+    <!--abaixo colocarei as novas tags, para que sejam pesquisadas na web-->
+            <li><a href="#tagsfont">tags font, del, abbr</a></li>
+    <!--no exercício havia colocado o "p" como nova tag, não coloquei porque 
+    acredito que tenha sido um erro na digitação da pergunta.-->
+            <li><a href="#referências">Referências</a></li>
+        </ul>
+            <hr>
+<!--lista1-->
+        <h3 id="o que é html">O que é html?</h3>
+        <h4><a href="#indice">voltar</a></h4>
+            <p>
+                <b>HTML</b>(abreviação  para a expressão inglesa Hyper Text 
+                Markup Languagem, que sigtnifica: <mark><i>"Linguagem de Marcação
+                de Hipertexto"</i></mark>). 
+            </p>
+            <p>
+                HTML serve para estruturar além de textos e imagens, todas as 
+                linguagens necessárias para viabilizar diversas plataformas online. 
+                Como sites, Blogs, e-commercers. É a estutura básica de tudo que 
+                vemos na internet atual (2024).
+            </p>
+            <p>
+                <u>Tim Berners-Lee (físico britânico)</u> criou o HTML original (e outros
+                protocolos associados como o <mark>HTTP</mark>),numa estação <u>NeXTcube</u>,
+                usando o ambiente de desenvolvimento <u>NeXTSTEP</u>. Na época, a Linguagem
+                não era uma especificação, mas uma coleção de ferramentas para 
+                resolver um problema de Tim: a comunicação e isseminação das
+                pesquisas entre ele e o seu grupo de colegas. A sua solução, combinada
+                com a então emergente internet pública(que tornar-se-ia a internet),
+                ganhou atenção mundial.
+            </p>
+            <p>
+                As primeiras versões do HTML foram defenidas com regras
+                sintáticas flexíveis, o que ajudou aqueles sem familiaridade
+                com a publiação na <mark>Web</mark>.  Através do tempo, a utilização de 
+                ferramentas para autoria de HTML aumentou, assim como a tendência
+                em tornar a sintaxe cada vez mais rígida. Apesar disso, por 
+                questões históricas (retrocompatibilidade), os navegadores ainda hoje
+                conseguem interpretar páginas web que estão longe de ser um código
+                HTML válido. 
+            </p>
+            <hr>
+
+<!--lista2-->
+        <h3 id="tagsh1">tags h1 ate h6</h3>
+        <h4><a href="#indice">voltar</a></h4>
+        <p>
+            As tags<mark> h1, h2, h3, h4, h5 e h6</mark> trás parâmetros de tamanho
+            de caracteres, sendo h1 o maior e o h6 o menor. 
+        </p>
+        
+          <p> <u>Sintaxe h1 </u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+<!--não colocarei o <> e nem o </> na sintaxe,  porque o exemplo 
+ativa o código na página. Ainda não sei fazer ativar-->
+       
+            <p><h1> h1 Letra grande /h1</h1></p>
+        </Blockquote>
+
+        <p> <u>Sintaxe h2 </u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+       
+            <p><h2> h2 pouco menor que o h1 /h2</h2></p>
+        </Blockquote>
+
+        <p> <u>Sintaxe h3 </u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+       
+            <p><h3> h3 pouco menor que o h2 /h3</h3></p>
+        </Blockquote>
+
+        <p> <u>Sintaxe h4 </u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+       
+            <p><h4> h4 pouco menor que o h3 /h4</h4></p>
+        </Blockquote>
+
+        <p> <u>Sintaxe h5 </u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+       
+            <p><h5> h5 pouco menor que o h4 /h5</h5></p>
+        </Blockquote>
+
+        <p> <u>Sintaxe h6 </u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+       
+            <p><h6> h6 pouco menor que o h5 /h6</h6></p>
+        </Blockquote>
+        <hr>
+
+<!--lista3-->
+        <h3 id="tagsp">tags p, mark, smal</h3>
+        <h4><a href="#indice">voltar</a></h4>
+
+        <h4>P</h4>
+        <p>
+            Usado para iniciar um parágrafo, ajudando numa 
+            organização de textos.
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+             <U>P</U>  Assim, o texto ficará melhor organizado
+             e melhor compreendido para o leitor.<u>/P</u>
+        </p>
+        </Blockquote>
+
+        <h4>mark</h4>
+        <p>
+            Faz marcações no texto ou em partes do texto, deixando 
+            mais visível ao leitor.
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+            <mark>Assim, podemos marcar o texto inteiro.</mark>
+            Assim,<mark>marcamos</mark> uma só palavra.
+        </p>
+        </Blockquote>
+
+        <h4>small</h4>
+        <p>
+            Usado para diminuir o tamanho de palavras, frases, parágrafos
+            ou até mesmo textos inteiros.
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+             Assim, posso diminuir o tamanho de uma <small>palavra</small>.
+             Assim, posso diminuir o tamanho de <small>duas palavras</small>
+             <small>Assim, posso diminuir o tamanho de toda a sentença.</small>
+        </p>
+        </Blockquote>
+        <hr>
+
+<!--lista4-->
+        <h3 id="tagsi">tags i, u, strong</h3>
+        <h4><a href="#indice">voltar</a></h4>
+
+        <h4>i</h4>
+        <p>
+            Usado para deixar qualquer caracter em itálico, 
+            isto é, quando a letra fica um pouco deitada. 
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+              Assim, deixará uma <strong>i</strong><i> palavra </i><strong>/i</strong> em itálico.        
+          <p> Assim, deixará <strong>i</strong><i> duas palavras </i><strong>/i</strong> em itálico.</p>
+          <p> <strong>i</strong><i> Assim, deixará toda frase em itálico </i> <strong>/i</strong></p>
+        </p>
+        </Blockquote>
+
+        <h4>u</h4>
+        <p>
+            Usado para sublinhar palavras ou até mesmo textos.
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+             <strong>u</strong><u>Assim, o texto ficará tudo sublinhado</u><strong>/u</strong>
+            <P>Assim, apenas uma <strong>u</strong><u>  letra  </u><strong>/u</strong> ficará sublinhada</P>
+            </p>
+        </Blockquote>
+
+        <h4>strong</h4>
+        <p>
+            Usado para deixar o caracter num tom negrito, forte,
+            escuro.
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+             <i>strong</i> <strong> Assim, o texto ficará todo escuro.</strong> <i>/strong</i>
+        <p>Assim, uma <i>strong </i> <strong>palavra</strong> <i> /strong</i> ficará escura</p>    
+        </p>
+        </Blockquote>
+        <hr>
+        
+
+<!--lista5-->
+        <h3 id="tagsol">tags ol, ul, li, a</h3>
+        <h4><a href="#indice">voltar</a></h4>
+
+        <h4>ol</h4>
+        <p>
+            Usado para criar uma lista ordenada(enumerada), mas na sua
+            sintaxe, precisa usar em seguida a tag li, para 
+            listar os ítens.
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+            <i>ol</i>
+             <ol>
+               <p> <i>li</i><li>casa</li><i>/li</i></p>
+            
+                <p><i>li</i><li>quarto</li><i>/li</i></p>
+
+                <p><i>li</i><li>cozinha</li><i>/li</i></p>
+
+                <p><i>li</i><li>banheiro</li><i>/li</i></p>
+             </ol>
+             <i>/ol</i>
+        </p>
+        </Blockquote>
+
+        <h4>ul</h4>
+        <p>
+            Usado para criar uma lista não ordenada(sem numeração de ordem), mas na sua
+            sintaxe, precisa usar em seguida a tag li, para 
+            listar os ítens.
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+            <i>ul</i>
+            <ol>
+              <p> <i>li</i><li>casa</li><i>/li</i></p>
+           
+               <p><i>li</i><li>quarto</li><i>/li</i></p>
+
+               <p><i>li</i><li>cozinha</li><i>/li</i></p>
+
+               <p><i>li</i><li>banheiro</li><i>/li</i></p>
+            </ol>
+            <i>/ul</i>
+        </p>
+        </Blockquote>
+
+
+        <h4>li</h4>
+        <p>
+            Usado para introduzir os ítens de listas ordenas ou não. 
+            Esta tag funciona sempre em conjunto com as tags <i>ol</i>
+            e <i>ul</i>. 
+
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+            <i>ul</i>
+            <ol>
+              <p> <i>li</i><li>martelo</li><i>/li</i></p>
+           
+               <p><i>li</i><li>serraa</li><i>/li</i></p>
+
+               <p><i>li</i><li>parafuso</li><i>/li</i></p>
+
+               <p><i>li</i><li>chave de fenda</li><i>/li</i></p>
+            </ol>
+            <i>/ul</i>
+        </p>
+        </Blockquote>
+
+        <h4>a</h4>
+        <p>
+            Usado para criar um hiperlink de dentro da própria
+            página ou de uma página para outra. Mas para isso, 
+            precisa ver acrescida da expressão <i>href</i>.
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+            
+           <i>a href="http://dio.me" target="_blank"</i> <a href="http://dio.me" target="_blank"> site da dio  </a><i>a</i>
+        </p>
+        </Blockquote>
+        OBS:
+
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        
+            O termo <i>target="_blank"</i> faz com que o link abra
+            numa outra aba, fazendo com que o usuário permaneça na 
+            página.
+         
+        </Blockquote>
+        <hr>
+
+
+        
+<!--lista6-->
+        <h3 id="tagshr">tags hr, sub, blockquote</h3>
+        <h4><a href="#indice">voltar</a></h4>
+
+
+        <h4>hr</h4>
+        <p>
+            Usado para criar uma linha. Isso divide seções da
+            página e trechos. 
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+            
+          Eu posso escrever algumas linhas e parágrafos. Fazendo que 
+          meu texto tenha uma ideia. Após terminar essa parte, colocado
+          uma linha abaixo.
+        <P><i>hr</i></P>
+        <hr>
+           <p>
+            Após essa linha, posso  continuar o texto, com outro tema
+            quem sabe. Ou até mesmo continuar o desenvolvimento anterior.
+           </p>
+    
+        </p>
+        </Blockquote>
+
+        <h4>sub</h4>
+        <p>
+            Usado para colocar os caracteres abaixo. Uma boa utilidadade,
+            é para notação expressões matemáticas e químicas. 
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+            Na matemática: Log<sub>5</sub>25 -> Log<i>  sub  </i><sub>5</sub><i>  /sub</i>25
+           <P>
+            Na química: H<sub>2</sub>O  -> H<i> sub </i><sub>2</sub> <i>  /sub </i>O
+           </P>
+        </p>
+        </Blockquote>
+
+
+        <h4>blockquote</h4>
+        <p>
+            Usado para criar um bloco para notas ou citações. 
+            Usado em artigos e também para determinar um bloco 
+            para exemplos.
+        </p>
+        <p> <u>Sintaxe</u></p>
+
+        <Blockquote style="background-color: rgb(255, 255, 255);">
+            <p>
+                <i>blockquote</i>
+               
+            </p>
+            </Blockquote>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+            O texto ficará dentro desse bloco, onde assim 
+            permanecerá destacado. A cor de fundo foi determinada 
+            previamente utilizando a tag <i>style="backgound-color"</i>.
+           
+        </p>
+        </Blockquote>
+
+        <Blockquote style="background-color: rgb(255, 255, 255);">
+            <p>
+                <i>/blockquote</i>
+               
+            </p>
+            </Blockquote>
+
+            <hr>
+
+<!--lista7-->
+        <h3 id="tagsfont">tags font, del, abbr</h3>
+        <h4><a href="#indice">voltar</a></h4>
+
+        <h4>font</h4>
+
+        <p>
+            Usado para colocar diversar fontes nos caracteres bem
+            como alterar seu tamanho e cores. 
+        </p>
+        
+        <p> <u>Sintaxe</u></p>
+        <P>
+            <i>
+                p style="font-family: verdana;"
+            </i>
+        </P>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+           <p style="font-family: verdana;"> 
+            Usado para colocar diversar fontes nos caracteres,
+            bem como alterar seu tamanho e cores.
+           </p>
+        
+        </p>
+        </Blockquote>
+        <P>
+            <i>
+                /p
+            </i>
+        </P>
+
+        <P>
+            <i>
+                p style="font-size:30"
+            </i>
+        </P>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+           <p style="font-size: 30"> 
+            
+            Nesse exemplo estamos mudando o tamanho da fonte para 30, 
+        
+           </p>
+        
+        </Blockquote>
+        <P>
+            <i>
+                /p
+            </i>
+        </P>
+
+        <h4>del</h4>
+        <p>
+            Usado para deletar palavras e partes de um documento, 
+            tracejando-o.
+        </p>
+        <p> <u>Sintaxe</u></p>
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+        <p>
+            
+          As escolhar podem parecer estranhas algumas vezes. 
+          Um dia é ótimo viajar de <del>avião</del>, mas aproveitamos 
+          melhor de carro. 
+               
+        </p>
+        <hr>
+
+        <p>
+            As escolhar podem parecer estranhas algumas vezes. 
+          Um dia é ótimo viajar de <i>del</i><del>  avião  </del><i>/del</i>, mas aproveitamos 
+          melhor de carro. 
+        </p>
+
+        </Blockquote>
+
+        <Blockquote style="background-color: rgb(241, 231, 221);">
+            <p>
+                
+              Sempre soube como escrever corretamente. 
+           <P>Sempre <del>subi</del> como <del>iscrivi</del> corretamente. </P>
+
+            </p>
+
+            <hr>
+            <p>
+                <P>Sempre <i>del</i><del>  subi  </del><i>/del</i> como <i>del</i><del>  iscrivi  </del><i>/del</i> corretamente. </P>
+            </p>
+            </Blockquote>
+
+            <h4>abbr</h4>
+            <p>
+                Usado para colocar abreviações. Quando executado ao passar o cursor na 
+                palavra, aparecerá a abreviação completa que foi 
+                previamente determinada.  
+            </p>
+            <p> <u>Sintaxe</u></p>
+            <Blockquote style="background-color: rgb(241, 231, 221);">
+            <p>
+                Muitos países devem dinheiro ao <abbr title="Fundo monetário Internacional">FMI</abbr> em isso complica 
+                suas finanças. 
+            </p>
+            <hr>
+            <p>
+                Muitos países devem dinheiro ao <i>abbr title="fundo monetário internacional"</i><abbr title="Fundo monetário Internacional">FMI</abbr> <i>/abbr</i>em isso complica 
+                suas finanças. 
+            </p>
+            </Blockquote>
+
+            <hr>
+<!--referências-->
+        <h3 id="referências">Referências</h3>
+        <h4><a href="#indice">voltar</a></h4>
+
+        <ul>
+            <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">w3schools</a></li>
+            <li><a href="https://www.homehost.com.br/blog/tutoriais/o-que-e-html/" target="_blank">homehost</a></li>
+            <li><a href="https://pt.wikihow.com/Abrir-Arquivos-HTML" target="_blank">wikihow</a></li>
+            <li><a href="https://www.infoescola.com/informatica/html/" target="_blank">infoescola</a></li>
+        </ul>
+
+
+
+
+
+
+
+    </body>
+</html>
